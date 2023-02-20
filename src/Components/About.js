@@ -31,7 +31,13 @@ const About = () => {
           <p className="text-md py-2 text-gray-800 leading-8 dark:text-white">
             I am eager to bring my skills and experience to a new challenge and
             to continue growing as a developer. If you have any queries please
-            feel free to reach out to me on - prathap.s@northeastern.edu
+            feel free to reach out to me on -{" "}
+            <a
+              className="underline text-blue-500 dark:text-blue-400"
+              href="mailto:prathap.s@northeastern.edu"
+            >
+              prathap.s@northeastern.edu
+            </a>
           </p>
 
           <a

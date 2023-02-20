@@ -26,7 +26,7 @@ const Projects = () => {
             </p>
             <p className="py-2 mt-0 text-justif text-white dark:text-gray-800">
               End-to-end management solution built for smoother performance in a
-              hospital seHng using JAVA, JAVA Swing, and MySQL
+              hospital setting using JAVA, JAVA Swing, and MySQL
             </p>
           </div>
           {/* <a
@@ -45,12 +45,12 @@ const Projects = () => {
               {"Menu Masters"}
             </h4>
             <p className="py-2 mt-0 text-justif text-white dark:text-gray-800">
-              Developed the web applicaGon using JavaScript and React and
+              Developed the web application using JavaScript and React and
               server-side language Node JS and Express JS. Used MongoDB as a
               persistent database
             </p>
             <p className="py-2 mt-0 text-justif text-white dark:text-gray-800">
-              Implemented CRUD operaGons using RESTful routes and developed full
+              Implemented CRUD operations using RESTful routes and developed full
               log-in functionality
             </p>
           </div>
