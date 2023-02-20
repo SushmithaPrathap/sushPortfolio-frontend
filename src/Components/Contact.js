@@ -41,13 +41,6 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
-    console.log("target", e.target);
-    let body = {
-      first_name: fName,
-      last_name: lName,
-      email: email,
-      message: message,
-    };
     emailjs
       .sendForm(
         "service_d2927dn",
