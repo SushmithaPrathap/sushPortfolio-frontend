@@ -1,6 +1,6 @@
 
 
-export const SkillCard = ({name, image }) => {
+export const SkillCard = ({name}) => {
   return (
     <div className="rounded-lg m-1 flex flex-col justify-start items-center ">
       <h4 className="text-2xl py-2 dark:text-white text-gray-600">{name}</h4>

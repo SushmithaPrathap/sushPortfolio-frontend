@@ -44,7 +44,7 @@ const About = () => {
           </a>
         </div>
         <div className=" relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96 items-start">
-          <img src={deved} fill style={{ objectFit: "cover" }} />
+          <img src={deved} fill style={{ objectFit: "cover" }} alt="" />
         </div>
       </div>
     </section>

@@ -25,6 +25,7 @@ function App() {
             className="rounded-full mx-1 md:mx-2"
             width={"50px"}
             height={"50px"}
+            alt=""
           />
           <h1 className="text-md font-semibold font-burtons dark:text-white">
             Sushmitha Prathap

@@ -1,16 +1,3 @@
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import next from "../assets/next.png";
-import tailwind from "../assets/tailwind.png";
-import mongodb from "../assets/mongodb.png";
-import node from "../assets/node.png";
-import reaxt from "../assets/reaxt.png";
-import sql from "../assets/sql.png";
-import java from "../assets/java.png";
-import express from "../assets/express.png";
-import python from "../assets/python.png";
-
 import { SkillCard, SkillCardSmall } from "./SkillCard";
 
 export default function Skills() {
@@ -26,20 +13,20 @@ export default function Skills() {
         <div className="flex flex-col justify-start items-start">
           <div className="flex gap-5 py-8 lg:py-10 flex-row flex-wrap justify-start items-center">
             <SkillCard name={"Front-end Technologies"} />
-            <SkillCardSmall image={html} name={"HTML"} />
-            <SkillCardSmall image={css} name={"CSS"} />
-            <SkillCardSmall image={javascript} name={"JavaScript"} />
-            <SkillCardSmall image={reaxt} name={"React JS"} />
-            <SkillCardSmall image={tailwind} name={"Tailwind CSS"} />
-            <SkillCardSmall image={next} name={"NEXT JS"} />
-            <SkillCardSmall image={next} name={"Material UI"} />
+            <SkillCardSmall name={"HTML"} />
+            <SkillCardSmall name={"CSS"} />
+            <SkillCardSmall name={"JavaScript"} />
+            <SkillCardSmall name={"React JS"} />
+            <SkillCardSmall name={"Tailwind CSS"} />
+            <SkillCardSmall name={"NEXT JS"} />
+            <SkillCardSmall name={"Material UI"} />
           </div>
           <div className="flex gap-5 py-8 lg:py-10 flex-row flex-wrap justify-start items-center">
-          <SkillCard name={"Back-end Technologies"} />
-            <SkillCardSmall image={node} name={"Node JS"} />
-            <SkillCardSmall image={express} name={"Express JS"} />
-            <SkillCardSmall image={java} name={"Java"} />
-            <SkillCardSmall image={python} name={"python"} />
+            <SkillCard name={"Back-end Technologies"} />
+            <SkillCardSmall name={"Node JS"} />
+            <SkillCardSmall name={"Express JS"} />
+            <SkillCardSmall name={"Java"} />
+            <SkillCardSmall name={"python"} />
           </div>
           <div className="flex gap-5 py-8 lg:py-10 flex-row flex-wrap justify-start items-center">
             <SkillCard name={"Networking"} />

@@ -3,8 +3,7 @@
 const ProjectCard = ({ image, heading, text }) => {
   return (
     <div className="flex flex-col justify-center items-start p-4 border-2 border-gray-500 rounded-lg hover:z-10 cursor-pointer hover:bottom-3 relative bottom-0 transition-all shadow-2xl w-96 -m-6">
-      {/* <img src={image} /> */}
-      <img src={image} width={100} height={100} className="text-center" />
+      <img src={image} width={100} height={100} className="text-center" alt="" />
       <div>
         <h4 className="text-2xl py-10 mt-0 pt-2  dark:text-white">{heading}</h4>
         <p className="py-2 mt-0  dark:text-white">

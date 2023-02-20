@@ -1,4 +1,3 @@
-import ProjectCard from "./ProjectCard";
 import one from "../assets/one.png";
 import twi from "../assets/twi.png";
 import three from "../assets/three.png";
@@ -16,8 +15,7 @@ const Projects = () => {
         <ProjectCard image={twi} heading={"Project 2"} />
         <ProjectCard image={three} heading={"Project 3"} /> */}
         <div className="flex flex-col my-2 justify-center items-center p-8 rounded-lg cursor-pointer  hover:bottom-6 hover:z-20 relative bottom-0 transition-all shadow-2xl md:w-96 -m-3 bg-gray-800 dark:bg-white">
-          {/* <img src={image} /> */}
-          <img src={one} width={100} height={100} className="text-center" />
+          <img src={one} width={100} height={100} className="text-center" alt="" />
           <div className="text-center">
             <h4 className="text-2xl py-10 mt-0 pt-2 text-white dark:text-gray-800">
               {"Hospital Management System"}
@@ -40,8 +38,8 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-col my-2 justify-center items-center p-8 rounded-lg cursor-pointer  hover:bottom-6 hover:z-20 relative bottom-0 lg:z-20 transition-all shadow-2xl md:w-96 -m-3 bg-gray-800 dark:bg-white">
-          {/* <img src={image} /> */}
-          <img src={twi} width={100} height={100} className="text-center" />
+
+          <img src={twi} width={100} height={100} className="text-center" alt="" />
           <div className="text-center">
             <h4 className="text-2xl py-10 mt-0 pt-2 text-white dark:text-gray-800">
               {"Menu Masters"}
@@ -65,8 +63,8 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-col my-2 justify-center items-center p-8 rounded-lg cursor-pointer  hover:bottom-6 hover:z-20 relative bottom-0 transition-all shadow-2xl md:w-96 -m-3 bg-gray-800 dark:bg-white">
-          {/* <img src={image} /> */}
-          <img src={three} width={100} height={100} className="text-center" />
+
+          <img src={three} width={100} height={100} className="text-center" alt="" />
           <div className="text-center">
             <h4 className="text-2xl py-10 mt-0 pt-2 text-white dark:text-gray-800">
               {"EliteFishin"}

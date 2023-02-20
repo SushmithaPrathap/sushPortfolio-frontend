@@ -18,12 +18,17 @@ const Hero = () => {
             Join me down below and let's get cracking!
           </p>
         </div>
-        <a
+        <button
           className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 w-24 hover:bg-gradient-to-r hover:from-teal-500 hover:to-cyan-500"
-          href="#"
+          onClick={() => {
+            let element = document.getElementById("contact");
+            element.scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
         >
           Connect
-        </a>
+        </button>
         {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-white">
     <AiFillLinkedin />
     <AiFillTwitterCircle />
