@@ -62,7 +62,7 @@ const Experience = () => {
               Software Developer Intern
             </h4>
             <h4 className="vertical-timeline-element-subtitle">
-              Mumuration Solutions private limited, Bangalore
+              Yujana Infomedia, Bangalore
             </h4>
 
             {/* <p>

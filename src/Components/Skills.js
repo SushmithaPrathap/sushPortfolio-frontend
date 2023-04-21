@@ -20,6 +20,8 @@ export default function Skills() {
             <SkillCardSmall name={"Tailwind CSS"} />
             <SkillCardSmall name={"NEXT JS"} />
             <SkillCardSmall name={"Material UI"} />
+            <SkillCardSmall name={"Redux"} />
+            <SkillCardSmall name={"React Native"} />
           </div>
           <div className="flex gap-5 py-8 lg:py-10 flex-row flex-wrap justify-start items-center">
             <SkillCard name={"Back-end Technologies"} />
@@ -41,6 +43,15 @@ export default function Skills() {
             <SkillCardSmall name={"MongoDB"} />
             <SkillCardSmall name={"PostgreSQL"} />
             <SkillCardSmall name={"Oracle"} />
+          </div>
+          <div className="flex gap-5 py-8 lg:py-10 flex-row flex-wrap justify-start items-center">
+            <SkillCard name={"Other Techincal Skills"} />
+            <SkillCardSmall name={"UI/UX Design"} />
+            <SkillCardSmall name={"Design Theory"} />
+            <SkillCardSmall name={"CI/CD Technology"} />
+            <SkillCardSmall name={"SEO"} />
+            <SkillCardSmall name={"GIT"} />
+            <SkillCardSmall name={"AWS"} />
           </div>
         </div>
       </div>
