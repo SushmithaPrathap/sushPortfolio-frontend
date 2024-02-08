@@ -1,5 +1,5 @@
 import { AiOutlineDownload } from "react-icons/ai";
-import deved from "../assets/memoji.png";
+import deved from "../assets/girl.png";
 import resume from "../assets/resume.pdf";
 
 const About = () => {
@@ -49,8 +49,8 @@ const About = () => {
             <AiOutlineDownload className=" cursor-pointer text-2xl font-bold text-white" />
           </a>
         </div>
-        <div className=" relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96 items-start">
-          <img src={deved} fill style={{ objectFit: "cover" }} alt="" />
+        <div className=" relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-1/3 md:w-1/3 items-start">
+          <img src={deved} fill style={{ objectFit: "contain" }} alt="" />
         </div>
       </div>
     </section>

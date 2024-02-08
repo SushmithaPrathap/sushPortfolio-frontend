@@ -10,14 +10,15 @@ import About from "./Components/About";
 import Hero from "./Components/Hero";
 import me from "./assets/me.png";
 import resume from "./assets/resume.pdf";
+import ProjectsSection from "./Components/ProjectSection.jsx";
 
 function App() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
   const [show, setShow] = useState(false);
   const [atId, setAtId] = useState("Home");
   console.log("at id", atId);
   return (
-    <div className={dark ? "dark" : ""}>
+    <main className={dark ? "dark" : ""}>
       <nav className="z-30 px-6 md:px-10 py-6 flex justify-between fixed top-0 bg-white dark:bg-gray-900 w-full items-center">
         <div className="flex flex-row items-center justify-center">
           <img
@@ -185,25 +186,26 @@ function App() {
         )}
       </nav>
 
-      <main className="bg-white px-10 md:px-20 lg:px-20 dark:bg-gray-900">
+      <div className="bg-white px-10 md:px-20 lg:px-20 dark:bg-gray-900">
         <Hero />
 
         <About />
 
-        <Skills />
+        {/* <Projects /> */}
+        <ProjectsSection />
 
-        <Projects />
+        <Skills />
 
         <Experience />
 
         <Contact />
-      </main>
+      </div>
       <footer>
         <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-1 rounded-md w-full text-center">
           <h4 className="text-lg m-4">© Made By Sushmitha Prathap</h4>
         </div>
       </footer>
-    </div>
+    </main>
   );
 }
 
