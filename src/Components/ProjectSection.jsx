@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard.jsx";
-import ProjectTag from "./ProjectTag";
+// import ProjectTag from "./ProjectTag"; 
 import { motion, useInView } from "framer-motion";
 import image1 from "../assets/portfolio.png";
 import image2 from "../assets/bookbuddy.png";
@@ -71,9 +71,9 @@ const ProjectsSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  const handleTagChange = (newTag) => {
-    setTag(newTag);
-  };
+//   const handleTagChange = (newTag) => {
+//     setTag(newTag);
+//   };
 
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)

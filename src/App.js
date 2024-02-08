@@ -3,7 +3,7 @@ import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
+// import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Experience from "./Components/Experience";
 import About from "./Components/About";
