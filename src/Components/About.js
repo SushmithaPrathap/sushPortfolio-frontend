@@ -1,10 +1,10 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import deved from "../assets/girl.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/SUSHMITHA PRATHAP main.pdf";
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen my-20">
+    <section id="about" className=" my-40">
       <div className="flex flex-col justify-between items-center lg:flex-row">
         <div className="text-justify max-w-3xl">
           <h3 className="text-3xl py-10  dark:text-white">About</h3>
@@ -34,9 +34,9 @@ const About = () => {
             feel free to reach out to me on -{" "}
             <a
               className="underline text-blue-500 dark:text-blue-400"
-              href="mailto:prathap.s@northeastern.edu"
+              href="mailto:sushmitha.prathap04@gmail.com"
             >
-              prathap.s@northeastern.edu
+              sushmitha.prathap04@gmail.com
             </a>
           </p>
 

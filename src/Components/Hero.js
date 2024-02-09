@@ -1,9 +1,10 @@
 import { TypeAnimation } from "react-type-animation";
 import deved from "../assets/memoji.png";
+import resume from "../assets/SUSHMITHA PRATHAP main.pdf";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen pt-28 md:pt-40">
+    <section id="home" className="py-40">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h2 className="text-5xl font-extrabold py-2 text-gray-800 md:text-6xl lg:text-6xl dark:text-white">
@@ -32,9 +33,9 @@ const Hero = () => {
             MERN Stack Developer and Web Designer
           </h3> */}
           <p className="text-md py-5 leading-8 text-base sm:text-lg text-gray-800 md:text-xl md:max-w-2xl   dark:text-white">
-            I’m an experienced full-stack developer, currently a graduate
-            student at Northeastern University, Boston. I'm passionate about
-            building web applications and I enjoying creating web designs.
+            I am a full-stack developer and I am dedicated to turning ideas into
+            innovative web applications. Explore my latest projects showcasing
+            my expertise in various frameworks and web development.
           </p>
           <p className="text-md py-5 leading-8 text-gray-800 md:text-xl md:max-w-2xl   dark:text-white">
             Join me down below and let's get cracking!
@@ -52,16 +53,10 @@ const Hero = () => {
             >
               Hire Me
             </button>
-            <button
-              className="px-6 py-3 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white border border-white m"
-              onClick={() => {
-                let element = document.getElementById("contact");
-                element.scrollIntoView({
-                  behavior: "smooth",
-                });
-              }}
-            >
-              Download CV
+            <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white border border-white m">
+              <a href={resume} download={"SushmithaResume.pdf"}>
+                Download CV
+              </a>
             </button>
           </div>
         </div>

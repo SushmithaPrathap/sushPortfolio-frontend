@@ -2,7 +2,7 @@ import { SkillCard, SkillCardSmall } from "./SkillCard";
 
 export default function Skills() {
   return (
-    <section className=" min-h-screen">
+    <section className="min-h-screen py-28">
       <h3 className="text-3xl py-10 mb-0 pb-0  dark:text-white">
         Languages and Skills
       </h3>

@@ -13,7 +13,7 @@ const projectsData = [
   {
     id: 1,
     title: "My Portfolio Website",
-    description: "Project 1 description",
+    description: "My Portfolio built using React and Tailwind CSS",
     image: image1,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/SushmithaPrathap/sushPortfolio-frontend",
@@ -22,7 +22,7 @@ const projectsData = [
   {
     id: 2,
     title: "BookStore with Open AI Chatbot",
-    description: "Project 2 description",
+    description: "Next JS application with interactive chatbot",
     image: image2,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/SushmithaPrathap/openai-chatbot",
@@ -30,8 +30,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "",
-    description: "Assignment Submission DevOps Project",
+    title: "Assignment Submission DevOps Project",
+    description:
+      "Built using React and Deployed on AWS, automated using Github Actions",
     image: image3,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/SushmithaPrathap/webapp",
@@ -39,8 +40,9 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "",
-    description: "Menu Masters",
+    title: "Menu Masters",
+    description:
+      "Responsive application built using React and Materilze. With Authentication and CRUD operations",
     image: image4,
     tag: ["All", "Web"],
     gitUrl:
@@ -50,7 +52,8 @@ const projectsData = [
   {
     id: 5,
     title: "Airport Management Application",
-    description: "Authentication and CRUD operations",
+    description:
+      "Management system built on Oracle SQL. Authentication, CRUD operations, Triggers, Functions and Permissions",
     image: image5,
     tag: ["All", "Data"],
     gitUrl: "https://github.com/SushmithaPrathap/Panchatantra",
@@ -59,7 +62,8 @@ const projectsData = [
   {
     id: 6,
     title: "Roommate Management Application",
-    description: "Project 5 description",
+    description:
+      "Responsive application built using React and Materilze. With Authentication and CRUD operations",
     image: image6,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/SushmithaPrathap/RoommateProject",
@@ -86,7 +90,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="project" className="min-h-screen">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>

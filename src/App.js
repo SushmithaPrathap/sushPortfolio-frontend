@@ -1,5 +1,6 @@
 import "./App.css";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import Skills from "./Components/Skills";
@@ -9,8 +10,9 @@ import Experience from "./Components/Experience";
 import About from "./Components/About";
 import Hero from "./Components/Hero";
 import me from "./assets/me.png";
-import resume from "./assets/resume.pdf";
+import resume from "./assets/SUSHMITHA PRATHAP main.pdf";
 import ProjectsSection from "./Components/ProjectSection.jsx";
+import AchievementsSection from "./Components/Achivements";
 
 function App() {
   const [dark, setDark] = useState(true);
@@ -42,9 +44,23 @@ function App() {
             }
             onClick={() => {
               setAtId("Home");
-              console.log("clicked home");
+              let element = document.getElementById("home");
+              element.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+          >
+            Home
+          </li>
+          <li
+            className={
+              atId === "About"
+                ? "text-md font-burtons mx-4 underline text-teal-600 drop-shadow-2xl cursor-pointer"
+                : "text-md font-burtons mx-4 dark:text-white cursor-pointer"
+            }
+            onClick={() => {
+              setAtId("About");
               let element = document.getElementById("about");
-              console.log("clicked home", element);
               element.scrollIntoView({
                 behavior: "smooth",
               });
@@ -84,15 +100,32 @@ function App() {
           >
             Contact
           </li>
+        </ul>
+
+        <ul className="md:flex md:items-center hidden gap-6 ">
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href={"https://www.linkedin.com/in/sushmitha-prathap/"}
+          >
+            <FaLinkedin className="w-6 h-6 cursor-pointer text-2xl text-blue-600 bg-white" />
+          </a>
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href={"https://github.com/SushmithaPrathap"}
+          >
+            <FaGithub className="w-6 h-6  cursor-pointer text-2xl text-white" />
+          </a>
           <li>
             {dark ? (
               <BsFillSunFill
-                className=" cursor-pointer text-2xl mx-4  dark:text-white"
+                className=" cursor-pointer text-2xl  dark:text-white"
                 onClick={() => setDark(false)}
               />
             ) : (
               <BsFillMoonStarsFill
-                className=" cursor-pointer text-2xl mx-4  dark:text-white"
+                className=" cursor-pointer text-2xl  dark:text-white"
                 onClick={() => setDark(true)}
               />
             )}
@@ -120,6 +153,7 @@ function App() {
               onClick={() => setDark(true)}
             />
           )}
+
           <GiHamburgerMenu
             onClick={() => setShow(!show)}
             className="cursor-pointer text-2xl font-bold text-gray-500 dark:text-white"
@@ -127,14 +161,30 @@ function App() {
         </div>
 
         {show && (
-          <div className="bg-white dark:bg-gray-900 absolute top-24 right-0 w-3/6 p-4 flex flex-col items-center justify-center rounded-xl">
+          <div className="bg-white dark:bg-gray-700 absolute top-24 right-0 w-3/6 p-4 flex flex-col items-center justify-center rounded-xl">
             <ul className="text-center pb-4">
+              <li
+                className={
+                  atId === "Home"
+                    ? "text-md font-burtons mx-4 underline text-teal-600 drop-shadow-2xl cursor-pointer"
+                    : "text-md font-burtons mx-4 dark:text-white cursor-pointer"
+                }
+                onClick={() => {
+                  setAtId("Home");
+                  let element = document.getElementById("home");
+                  element.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Home
+              </li>
               <li
                 className={
                   "text-md font-burtons text-gray-800 font-semibold drop-shadow-2xl cursor-pointer m-4 dark:text-white"
                 }
                 onClick={() => {
-                  setAtId("Home");
+                  setAtId("About");
                   let element = document.getElementById("about");
                   element.scrollIntoView({
                     behavior: "smooth",
@@ -171,11 +221,29 @@ function App() {
               >
                 Contact
               </li>
+              <li className="m-4 place-self-center px-6">
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href={"https://www.linkedin.com/in/sushmitha-prathap/"}
+                >
+                  <FaLinkedin className="w-6 h-6 drop-shadow-2xl text-2xl text-blue-600 bg-white" />
+                </a>
+              </li>
+              <li className="m-4 place-self-center justify-center px-6">
+                <a
+                  target={"_blank"}
+                  rel="noreferrer"
+                  href={"https://github.com/SushmithaPrathap"}
+                >
+                  <FaGithub className="w-6 h-6  drop-shadow-2xl text-2xl text-white" />
+                </a>
+              </li>
 
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md m-4"
-                  href="/assets/resume.pdf"
+                  href={resume}
                   download={"SushmithaResume.pdf"}
                 >
                   Resume
@@ -188,6 +256,8 @@ function App() {
 
       <div className="bg-white px-10 md:px-20 lg:px-20 dark:bg-gray-900">
         <Hero />
+
+        <AchievementsSection />
 
         <About />
 
