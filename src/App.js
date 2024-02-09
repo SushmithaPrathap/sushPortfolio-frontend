@@ -115,7 +115,7 @@ function App() {
             rel="noreferrer"
             href={"https://github.com/SushmithaPrathap"}
           >
-            <FaGithub className="w-6 h-6  cursor-pointer text-2xl text-white" />
+            <FaGithub className="w-6 h-6  cursor-pointer text-2xl dark:text-white text-gray-900" />
           </a>
           <li>
             {dark ? (
@@ -236,7 +236,7 @@ function App() {
                   rel="noreferrer"
                   href={"https://github.com/SushmithaPrathap"}
                 >
-                  <FaGithub className="w-6 h-6  drop-shadow-2xl text-2xl text-white" />
+                  <FaGithub className="w-6 h-6  drop-shadow-2xl text-2xl dark:text-white text-gray-900" />
                 </a>
               </li>
 
