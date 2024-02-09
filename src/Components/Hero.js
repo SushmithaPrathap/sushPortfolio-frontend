@@ -37,9 +37,9 @@ const Hero = () => {
             innovative web applications. Explore my latest projects showcasing
             my expertise in various frameworks and web development.
           </p>
-          <p className="text-md py-5 leading-8 text-gray-800 md:text-xl md:max-w-2xl   dark:text-white">
+          {/* <p className="text-md py-5 leading-8 text-gray-800 md:text-xl md:max-w-2xl   dark:text-white">
             Join me down below and let's get cracking!
-          </p>
+          </p> */}
 
           <div>
             <button

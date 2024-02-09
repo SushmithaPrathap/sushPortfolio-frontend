@@ -9,7 +9,7 @@ import Contact from "./Components/Contact";
 import Experience from "./Components/Experience";
 import About from "./Components/About";
 import Hero from "./Components/Hero";
-import me from "./assets/me.png";
+import me from "./assets/me2.png";
 import resume from "./assets/SUSHMITHA PRATHAP main.pdf";
 import ProjectsSection from "./Components/ProjectSection.jsx";
 import AchievementsSection from "./Components/Achivements";

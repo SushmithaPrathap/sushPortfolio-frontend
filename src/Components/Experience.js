@@ -22,6 +22,22 @@ const Experience = () => {
             className="vertical-timeline-element--education"
             contentStyle={{ background: "#374151", color: "#fff", }}
             contentArrowStyle={{ borderRight: "7px solid #374151" }}
+            date="2023 - present"
+            iconStyle={{ background: "teal", color: "#fff" }}
+            icon={<MdWorkOutline />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Counter Position and Barista - Part Time
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Tatte Bakery and Cafe, Northeastern University, Boston, MA
+            </h4>
+            {/* <p>Strategy, Social Media</p> */}
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: "#374151", color: "#fff", }}
+            contentArrowStyle={{ borderRight: "7px solid #374151" }}
             date="2022 - present"
             iconStyle={{ background: "teal", color: "#fff" }}
             icon={<MdSchool />}
