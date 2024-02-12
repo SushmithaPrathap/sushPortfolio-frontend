@@ -4,9 +4,9 @@ import resume from "../assets/SUSHMITHA PRATHAP main.pdf";
 
 const Hero = () => {
   return (
-    <section id="home" className="py-40">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left">
+    <section id="home" className="min-h-screen pt-40">
+      <div className="grid grid-cols-1 xl:grid-cols-12">
+        <div className="col-span-7 place-self-center text-center sm:text-left h-[620px]  sm:h-[400px]">
           <h2 className="text-5xl font-extrabold py-2 text-gray-800 md:text-6xl lg:text-6xl dark:text-white">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-400">
               {" "}
@@ -43,7 +43,7 @@ const Hero = () => {
 
           <div>
             <button
-              className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-b from-cyan-500 to-teal-500 hover:bg-slate-200 text-black"
+              className="px-6 py-3 rounded-full w-full sm:w-fit  m-2 bg-gradient-to-b from-cyan-500 to-teal-500 hover:bg-slate-200 text-black"
               onClick={() => {
                 let element = document.getElementById("contact");
                 element.scrollIntoView({
@@ -53,21 +53,21 @@ const Hero = () => {
             >
               Hire Me
             </button>
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white border border-white m">
+            <button className="px-6 py-3 rounded-full w-full sm:w-fit m-2 bg-transparent hover:bg-slate-800 text-gray-800 border-gray-600 dark:text-white border dark:border-white ">
               <a href={resume} download={"SushmithaResume.pdf"}>
                 Download CV
               </a>
             </button>
           </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-gradient-to-b from-gray-800 w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] relative">
+        <div className="col-span-5 place-self-center mt-10">
+          <div className="rounded-full bg-gradient-to-b from-gray-800 w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] relative">
             <img
               src={deved}
               alt="My Memoji"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
-              width={380}
-              height={380}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-[260px] h-[260px] sm:w-[380px] sm:h-[380px]"
+              // width={380}
+              // height={380}
               // blurDataURL="data:..." automatically provided
               // placeholder="blur" // Optional blur-up while loading
             />

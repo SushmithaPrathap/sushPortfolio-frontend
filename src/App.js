@@ -35,7 +35,7 @@ function App() {
           </h1>
         </div>
 
-        <ul className="md:flex md:items-center hidden ">
+        <ul className="lg:flex lg:items-center hidden ">
           <li
             className={
               atId === "Home"
@@ -102,7 +102,7 @@ function App() {
           </li>
         </ul>
 
-        <ul className="md:flex md:items-center hidden gap-6 ">
+        <ul className="lg:flex lg:items-center hidden gap-6 ">
           <a
             target={"_blank"}
             rel="noreferrer"
@@ -141,7 +141,7 @@ function App() {
           </li>
         </ul>
 
-        <div className="flex flex-row items-center justify-center  md:hidden">
+        <div className="flex flex-row items-center justify-center  lg:hidden">
           {dark ? (
             <BsFillSunFill
               className=" cursor-pointer text-2xl mx-4  dark:text-white"
@@ -271,8 +271,18 @@ function App() {
         <Contact />
       </div>
       <footer>
-        <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-1 rounded-md w-full text-center">
-          <h4 className="text-lg m-4">© Made By Sushmitha Prathap</h4>
+        <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-1 w-full text-center flex flex-col justify-around items-center sm:flex-row">
+          <h4 className="sm:text-lg text-md m-1 sm:m-4">2024 © All Rights Reserved.</h4>
+          <h4 className="sm:text-lg text-md m-1 sm:m-4">
+            Made with <span className="text-red-600 text-bold">♡</span> by{" "}
+            <span className="underline">Sushmitha Prathap</span>
+          </h4>
+          <a
+            className="cursor-pointer text-gray-700 dark:text-white m-1 sm:m-4 sm:text-lg text-md text-md"
+            href="mailto:sushmitha.prathap04@gmail.com"
+          >
+            Say Hello!
+          </a>
         </div>
       </footer>
     </main>
