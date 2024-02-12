@@ -175,6 +175,7 @@ function App() {
                   element.scrollIntoView({
                     behavior: "smooth",
                   });
+                  setShow(!show);
                 }}
               >
                 Home
@@ -189,6 +190,7 @@ function App() {
                   element.scrollIntoView({
                     behavior: "smooth",
                   });
+                  setShow(!show);
                 }}
               >
                 About
@@ -203,6 +205,7 @@ function App() {
                   element.scrollIntoView({
                     behavior: "smooth",
                   });
+                  setShow(!show);
                 }}
               >
                 Projects
@@ -217,6 +220,7 @@ function App() {
                   element.scrollIntoView({
                     behavior: "smooth",
                   });
+                  setShow(!show);
                 }}
               >
                 Contact
@@ -249,6 +253,12 @@ function App() {
                   Resume
                 </a>
               </li>
+              <li
+                className="dark:text-white text-md font-burtons place-self-start m-4 underline "
+                onClick={() => setShow(false)}
+              >
+                close
+              </li>
             </ul>
           </div>
         )}
@@ -272,7 +282,9 @@ function App() {
       </div>
       <footer>
         <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-1 w-full text-center flex flex-col justify-around items-center sm:flex-row">
-          <h4 className="sm:text-lg text-md m-1 sm:m-4">2024 © All Rights Reserved.</h4>
+          <h4 className="sm:text-lg text-md m-1 sm:m-4">
+            2024 © All Rights Reserved.
+          </h4>
           <h4 className="sm:text-lg text-md m-1 sm:m-4">
             Made with <span className="text-red-600 text-bold">♡</span> by{" "}
             <span className="underline">Sushmitha Prathap</span>

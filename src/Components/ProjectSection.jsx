@@ -8,6 +8,8 @@ import image3 from "../assets/submission.png";
 import image4 from "../assets/mm.png";
 import image5 from "../assets/airport.png";
 import image6 from "../assets/roommate.png";
+import image7 from "../assets/localloop.png";
+import image8 from "../assets/echosphere.png";
 
 const projectsData = [
   {
@@ -68,6 +70,26 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/SushmithaPrathap/RoommateProject",
     previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "LocalLoop - Figma Prototype Portfolio",
+    description: "Figma portfolio for a local commumity connecting application",
+    image: image7,
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl:
+      "https://www.figma.com/file/wzU1iRTDOMOs1092afxtG5/Untitled?type=design&node-id=1%3A293&mode=design&t=BZOSqnEhPO84Kdtp-1",
+  },
+  {
+    id: 6,
+    title: "EchoSphere - Figma Prototype Portfolio",
+    description: "Figma portfolio for a Amazon X Twitter application",
+    image: image8,
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl:
+      "https://www.figma.com/file/TtxJN0AmYQoT0E0owdz1AI/EchoSphere---Full?type=design&node-id=1%3A787&mode=design&t=WNfqU7071kXPfDQh-1",
   },
 ];
 
