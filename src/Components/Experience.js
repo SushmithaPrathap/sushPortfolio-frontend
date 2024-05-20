@@ -22,8 +22,24 @@ const Experience = () => {
             className="vertical-timeline-element--education"
             contentStyle={{ background: "#374151", color: "#fff", }}
             contentArrowStyle={{ borderRight: "7px solid #374151" }}
-            date="2023 - present"
-            iconStyle={{ background: "teal", color: "#fff" }}
+            date="Mar 2024 - present"
+            iconStyle={{ background: "#374151", color: "#fff" }}
+            icon={<MdWorkOutline />}
+          >
+            <h3 className="vertical-timeline-element-title">
+            Full-Stack Developer - Part Time
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+            One Community Global, San Gabriel, California
+            </h4>
+            {/* <p>Strategy, Social Media</p> */}
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: "#374151", color: "#fff", }}
+            contentArrowStyle={{ borderRight: "7px solid #374151" }}
+            date="May 2023 - May 2024"
+            iconStyle={{ background: "#374151", color: "#fff" }}
             icon={<MdWorkOutline />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -38,7 +54,7 @@ const Experience = () => {
             className="vertical-timeline-element--education"
             contentStyle={{ background: "#374151", color: "#fff", }}
             contentArrowStyle={{ borderRight: "7px solid #374151" }}
-            date="2022 - present"
+            date="Sept 2022 - May 2024"
             iconStyle={{ background: "teal", color: "#fff" }}
             icon={<MdSchool />}
           >
@@ -49,6 +65,27 @@ const Experience = () => {
               Northeastern University, Boston, MA
             </h4>
             {/* <p>Strategy, Social Media</p> */}
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "#374151", color: "#fff", }}
+            contentArrowStyle={{ borderRight: "7px solid #374151" }}
+            date="Nov 2020 - Apr 2021"
+            iconStyle={{ background: "#374151", color: "#fff" }}
+            icon={<MdWorkOutline />}
+          >
+            <h4 className="vertical-timeline-element-title">
+              Software Developer Intern
+            </h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              Yujana Infomedia, Bangalore
+            </h4>
+
+            {/* <p>
+              Creative Direction, User Experience, Visual Design, SEO, Online
+              Marketing
+            </p> */}
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -65,26 +102,6 @@ const Experience = () => {
               Mumuration Solutions private limited, Bangalore
             </h4>
             {/* <p>Front-end components, User Experience, Visual Design</p> */}
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "#374151", color: "#fff", }}
-            contentArrowStyle={{ borderRight: "7px solid #374151" }}
-            date="Mar 2020 - Jun 2020"
-            iconStyle={{ background: "#374151", color: "#fff" }}
-            icon={<MdWorkOutline />}
-          >
-            <h4 className="vertical-timeline-element-title">
-              Software Developer Intern
-            </h4>
-            <h4 className="vertical-timeline-element-subtitle">
-              Yujana Infomedia, Bangalore
-            </h4>
-
-            {/* <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
-            </p> */}
           </VerticalTimelineElement>
 
           <VerticalTimelineElement

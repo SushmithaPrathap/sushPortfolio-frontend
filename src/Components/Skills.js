@@ -11,11 +11,18 @@ export default function Skills() {
       </h4>
       <div>
         <div className="flex flex-col justify-start items-start">
+        <div className="flex gap-5 py-4 lg:py-5 flex-row flex-wrap justify-start items-center">
+            <SkillCard name={"Languages"} />
+            <SkillCardSmall name={"JavaScript"} />
+            <SkillCardSmall name={"Typescript"} />
+            <SkillCardSmall name={"JAVA"} />
+            <SkillCardSmall name={"Python"} />
+          </div>
           <div className="flex gap-5 py-4 lg:py-5 flex-row flex-wrap justify-start items-center">
             <SkillCard name={"Front-end Technologies"} />
             <SkillCardSmall name={"HTML"} />
             <SkillCardSmall name={"CSS"} />
-            <SkillCardSmall name={"JavaScript"} />
+            <SkillCardSmall name={"Boostrap"} />
             <SkillCardSmall name={"React JS"} />
             <SkillCardSmall name={"Tailwind CSS"} />
             <SkillCardSmall name={"NEXT JS"} />
@@ -27,8 +34,7 @@ export default function Skills() {
             <SkillCard name={"Back-end Technologies"} />
             <SkillCardSmall name={"Node JS"} />
             <SkillCardSmall name={"Express JS"} />
-            <SkillCardSmall name={"Java"} />
-            <SkillCardSmall name={"python"} />
+            <SkillCardSmall name={"SpringBoot"} />
           </div>
           <div className="flex gap-5 py-4 lg:py-5 flex-row flex-wrap justify-start items-center">
             <SkillCard name={"Cloud Technologies"} />
@@ -47,11 +53,16 @@ export default function Skills() {
             <SkillCardSmall name={"Jira"} />
           </div>
           <div className="flex gap-5 py-4 lg:py-5 flex-row flex-wrap justify-start items-center">
+            <SkillCard name={"Testing"} />
+            <SkillCardSmall name={"Jest"} />
+            <SkillCardSmall name={"Mocha"} />
+            <SkillCardSmall name={"React Testing Library"} />
+          </div>
+          <div className="flex gap-5 py-4 lg:py-5 flex-row flex-wrap justify-start items-center">
             <SkillCard name={"Networking"} />
             <SkillCardSmall name={"DNS"} />
             <SkillCardSmall name={"TCP/IP"} />
             <SkillCardSmall name={"Nginx"} />
-            <SkillCardSmall name={"python"} />
           </div>
           <div className="flex gap-5 py-4 lg:py-5 flex-row flex-wrap justify-start items-center">
             <SkillCard name={"Databases"} />
@@ -68,11 +79,12 @@ export default function Skills() {
             <SkillCardSmall name={"UI/UX Design"} />
             <SkillCardSmall name={"Design Theory"} />
             <SkillCardSmall name={"Linux"} />
-            <SkillCardSmall name={"CI/CD Technology"} />
+            <SkillCardSmall name={"Networking Protocols"} />
             <SkillCardSmall name={"MVC Architecture"} />
             <SkillCardSmall name={"SEO"} />
-            <SkillCardSmall name={"GIT"} />
-            <SkillCardSmall name={"AWS"} />
+            <SkillCardSmall name={"API design and integrationIT"} />
+            <SkillCardSmall name={"Open AI API"} />
+            <SkillCardSmall name={"Software Development Life Cycle"} />
           </div>
         </div>
       </div>

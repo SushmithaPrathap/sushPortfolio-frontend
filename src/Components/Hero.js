@@ -33,9 +33,8 @@ const Hero = () => {
             MERN Stack Developer and Web Designer
           </h3> */}
           <p className="text-md py-5 leading-8 text-base sm:text-lg text-gray-800 md:text-xl md:max-w-2xl   dark:text-white">
-            I am a full-stack developer and I am dedicated to turning ideas into
-            innovative web applications. Explore my latest projects showcasing
-            my expertise in various frameworks and web development.
+          I am a full-stack developer with a keen interest in DevOps, committed to transforming ideas into innovative applications. 
+          Discover my latest projects that highlight my proficiency across various frameworks and my approach to web development and system optimization.
           </p>
           {/* <p className="text-md py-5 leading-8 text-gray-800 md:text-xl md:max-w-2xl   dark:text-white">
             Join me down below and let's get cracking!

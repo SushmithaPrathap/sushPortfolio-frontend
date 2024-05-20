@@ -10,6 +10,7 @@ import image5 from "../assets/airport.png";
 import image6 from "../assets/roommate.png";
 import image7 from "../assets/localloop.png";
 import image8 from "../assets/echosphere.png";
+import image9 from "../assets/econo.png";
 
 const projectsData = [
   {
@@ -23,6 +24,15 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "EconoMeister - Smart Saver",
+    description: "React JS application with SpringBoot Backend",
+    image: image9,
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/SushmithaPrathap/SmartSaver.git",
+    previewUrl: "/",
+  },
+  {
+    id: 3,
     title: "BookStore with Open AI Chatbot",
     description: "Next JS application with interactive chatbot",
     image: image2,
@@ -31,7 +41,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Assignment Submission DevOps Project",
     description:
       "Built using React and Deployed on AWS, automated using Github Actions",
@@ -41,18 +51,18 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Menu Masters",
     description:
       "Responsive application built using React and Materilze. With Authentication and CRUD operations",
     image: image4,
     tag: ["All", "Web"],
     gitUrl:
-      "https://github.com/neu-mis-info6150-fall-2022/final-project-menumasters",
+      "https://github.com/SushmithaPrathap/MenuMasters.git",
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Airport Management Application",
     description:
       "Management system built on Oracle SQL. Authentication, CRUD operations, Triggers, Functions and Permissions",
@@ -62,7 +72,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Roommate Management Application",
     description:
       "Responsive application built using React and Materilze. With Authentication and CRUD operations",
@@ -72,7 +82,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 8,
     title: "LocalLoop - Figma Prototype Portfolio",
     description: "Figma portfolio for a local commumity connecting application",
     image: image7,
@@ -82,7 +92,7 @@ const projectsData = [
       "https://www.figma.com/file/wzU1iRTDOMOs1092afxtG5/Untitled?type=design&node-id=1%3A293&mode=design&t=BZOSqnEhPO84Kdtp-1",
   },
   {
-    id: 6,
+    id: 9,
     title: "EchoSphere - Figma Prototype Portfolio",
     description: "Figma portfolio for a Amazon X Twitter application",
     image: image8,
@@ -113,9 +123,9 @@ const ProjectsSection = () => {
 
   return (
     <section id="project" className="min-h-screen">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h3 className="text-3xl py-10 mb-8 pb-0  dark:text-white">
         My Projects
-      </h2>
+      </h3>
       {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
@@ -133,7 +143,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div> */}
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 mb-8">
         {projectsData.map((project, index) => (
           <motion.li
             key={index}

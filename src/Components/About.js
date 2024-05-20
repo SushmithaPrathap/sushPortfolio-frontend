@@ -4,7 +4,7 @@ import resume from "../assets/SUSHMITHA PRATHAP main.pdf";
 
 const About = () => {
   return (
-    <section id="about" className="pb-40 pt-20">
+    <section id="about" className="pb-20 pt-20">
       <div className="flex flex-col justify-between items-center xl:flex-row">
         <div className="text-justify max-w-3xl">
           <h3 className="text-3xl py-10  dark:text-white">About</h3>

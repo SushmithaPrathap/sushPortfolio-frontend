@@ -13,6 +13,7 @@ import me from "./assets/me2.png";
 import resume from "./assets/SUSHMITHA PRATHAP main.pdf";
 import ProjectsSection from "./Components/ProjectSection.jsx";
 import AchievementsSection from "./Components/Achivements";
+import Certification from "./Components/Certification";
 
 function App() {
   const [dark, setDark] = useState(true);
@@ -83,6 +84,22 @@ function App() {
             }}
           >
             Projects
+          </li>
+          <li
+            className={
+              atId === "certificate"
+                ? "text-md font-burtons mx-4 underline text-teal-600 drop-shadow-2xl cursor-pointer"
+                : "text-md font-burtons mx-4 dark:text-white cursor-pointer"
+            }
+            onClick={() => {
+              setAtId("certificate");
+              let element = document.getElementById("certificate");
+              element.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+          >
+            Certifications
           </li>
           <li
             className={
@@ -215,6 +232,21 @@ function App() {
                   "text-md font-burtons text-gray-800 font-semibold drop-shadow-2xl cursor-pointer m-4 dark:text-white"
                 }
                 onClick={() => {
+                  setAtId("certificate");
+                  let element = document.getElementById("certificate");
+                  element.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                  setShow(!show);
+                }}
+              >
+                Certifications
+              </li>
+              <li
+                className={
+                  "text-md font-burtons text-gray-800 font-semibold drop-shadow-2xl cursor-pointer m-4 dark:text-white"
+                }
+                onClick={() => {
                   setAtId("Contact");
                   let element = document.getElementById("contact");
                   element.scrollIntoView({
@@ -273,6 +305,8 @@ function App() {
 
         {/* <Projects /> */}
         <ProjectsSection />
+
+        <Certification />
 
         <Skills />
 
