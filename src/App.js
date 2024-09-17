@@ -10,7 +10,7 @@ import Experience from "./Components/Experience";
 import About from "./Components/About";
 import Hero from "./Components/Hero";
 import me from "./assets/me2.png";
-import resume from "./assets/SUSHMITHA PRATHAP main.pdf";
+import resume from "./assets/Sushmitha_Prathap_Resume.pdf";
 import ProjectsSection from "./Components/ProjectSection.jsx";
 import AchievementsSection from "./Components/Achivements";
 import Certification from "./Components/Certification";

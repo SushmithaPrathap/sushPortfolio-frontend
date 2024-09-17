@@ -18,19 +18,35 @@ const Experience = () => {
 
       <div className="z-1">
         <VerticalTimeline lineColor="#4c4c4c">
-          <VerticalTimelineElement
+        <VerticalTimelineElement
             className="vertical-timeline-element--education"
             contentStyle={{ background: "#374151", color: "#fff", }}
             contentArrowStyle={{ borderRight: "7px solid #374151" }}
-            date="Mar 2024 - present"
+            date="Jul 2024 - present"
             iconStyle={{ background: "#374151", color: "#fff" }}
             icon={<MdWorkOutline />}
           >
             <h3 className="vertical-timeline-element-title">
-            Full-Stack Developer - Part Time
+            Software Engineer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-            One Community Global, San Gabriel, California
+            KeelWorks, Oak Harbor, WA
+            </h4>
+            {/* <p>Strategy, Social Media</p> */}
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: "#374151", color: "#fff", }}
+            contentArrowStyle={{ borderRight: "7px solid #374151" }}
+            date="Mar 2024 - Jun 2024"
+            iconStyle={{ background: "#374151", color: "#fff" }}
+            icon={<MdWorkOutline />}
+          >
+            <h3 className="vertical-timeline-element-title">
+            Full-Stack Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+            One Community Global, San Gabriel, CA
             </h4>
             {/* <p>Strategy, Social Media</p> */}
           </VerticalTimelineElement>
@@ -76,7 +92,7 @@ const Experience = () => {
             icon={<MdWorkOutline />}
           >
             <h4 className="vertical-timeline-element-title">
-              Software Developer Intern
+              Freelance Software Developer
             </h4>
             <h4 className="vertical-timeline-element-subtitle">
               Yujana Infomedia, Bangalore
@@ -105,10 +121,31 @@ const Experience = () => {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "#374151", color: "#fff", }}
+            contentArrowStyle={{ borderRight: "7px solid #374151" }}
+            date="Jan 2019 - Feb 2020"
+            iconStyle={{ background: "#374151", color: "#fff" }}
+            icon={<MdWorkOutline />}
+          >
+            <h4 className="vertical-timeline-element-title">
+              Software Developer
+            </h4>
+            <h4 className="vertical-timeline-element-subtitle">
+            Enmarq Technologies, Bangalore
+            </h4>
+
+            {/* <p>
+              Creative Direction, User Experience, Visual Design, SEO, Online
+              Marketing
+            </p> */}
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
             className="vertical-timeline-element--education"
             contentStyle={{ background: "#374151", color: "#fff", }}
             contentArrowStyle={{ borderRight: "7px solid #374151" }}
-            date="2016 - 2020"
+            date="Aug 2016 - May 2020"
             iconStyle={{ background: "teal", color: "#fff" }}
             icon={<MdSchool />}
             dateClassName={"text-white"}

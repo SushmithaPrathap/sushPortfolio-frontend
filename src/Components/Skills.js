@@ -82,7 +82,7 @@ export default function Skills() {
             <SkillCardSmall name={"Networking Protocols"} />
             <SkillCardSmall name={"MVC Architecture"} />
             <SkillCardSmall name={"SEO"} />
-            <SkillCardSmall name={"API design and integrationIT"} />
+            <SkillCardSmall name={"API design and integration"} />
             <SkillCardSmall name={"Open AI API"} />
             <SkillCardSmall name={"Software Development Life Cycle"} />
           </div>

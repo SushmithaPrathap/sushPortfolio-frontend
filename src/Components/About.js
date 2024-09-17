@@ -1,6 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import deved from "../assets/girl.png";
-import resume from "../assets/SUSHMITHA PRATHAP main.pdf";
+import resume from "../assets/Sushmitha_Prathap_Resume.pdf";
 
 const About = () => {
   return (
